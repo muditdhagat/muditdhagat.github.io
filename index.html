@@ -14,61 +14,92 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" data-offset="0">
+    <!--    <div class="container">-->
     <div class="container">
-        <nav class="navbar navbar-expand-sm navbar-light" style="background-color: white">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="data/Mudit-Dhagat.pdf">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Interests</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-
-        <div class="row">
+        <div id="home" class="row align-items-center section">
             <div class="col-8">
                 <div class="profile-main p-4">
                     <h1 class="display-2">Hey ! I'm Mudit.</h1>
                     <h1 class="display-4 mt-3 ml-1">Technology enthusiast, developer & photographer.</h1>
                 </div>
-<!--
-                <div class="profile-links mt-5 ml-1">
-                    <nav class="nav">
-                        <a class="nav-link active" href="#">Mail</a>
-                        <a class="nav-link" href="#">LinkedIn</a>
-                        <a class="nav-link" href="#">Twitter</a>
-                    </nav>
-                </div>
--->
-            </div>
-            <div class="col-4">
-
             </div>
         </div>
     </div>
+    <div class="header">
+        <nav id="main-nav" class="navbar navbar-light navbar-expand-sm navbar-white" data-toggle="sticky-onscroll">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">Mudit Dhagat</a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data/Mudit-Dhagat.pdf">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#interest">Interests</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div id="about" class="section">
+            <div class="row">
+                <div class="col-8">
+                    <div class="profile-main p-4">
+                        <h1 class="display-2">Hey ! I'm Mudit.</h1>
+                        <h1 class="display-4 mt-3 ml-1">Technology enthusiast, developer & photographer.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="interest" class="section">
+            <div class="row">
+                <div class="col-8">
+                    <div class="profile-main p-4">
+                        <h1 class="display-2">Hey ! I'm Mudit.</h1>
+                        <h1 class="display-4 mt-3 ml-1">Technology enthusiast, developer & photographer.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="contact" class="section">
+            <div class="row">
+                <div class="col-8">
+                    <div class="profile-main p-4">
+                        <h1 class="display-2">Hey ! I'm Mudit.</h1>
+                        <h1 class="display-4 mt-3 ml-1">Technology enthusiast, developer & photographer.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    </div>-->
     <!-- Container -->
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

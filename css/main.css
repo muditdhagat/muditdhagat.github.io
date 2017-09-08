@@ -4,7 +4,41 @@ body {
 }
 
 body {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    position: relative;
 }
 
+.container {
+    height: 100%;
+}
+
+.section {
+    min-height: 100%;
+}
+
+.navbar-white {
+    background: white;
+}
+
+.sticky.navbar {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.sticky.is-sticky.navbar {
+      background-color: gainsboro;
+}
+
+.header {
+    margin-bottom: -50px;
+}
